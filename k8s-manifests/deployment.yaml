@@ -18,4 +18,4 @@ spec:
       - name: payment-ms
         image: silvia2025/payment-ms:latest
         ports:
-        - containerPort: 8080
+        - containerPort: 8081
