@@ -26,7 +26,7 @@ WORKDIR /app
 COPY --from=build /app/target/payment-ms-*.jar /app/payment-ms.jar
 
 # Expose the port your app runs on (replace with your actual port)
-EXPOSE 8080
+EXPOSE 8081
 
 # Command to run the application
 ENTRYPOINT ["java", "-jar", "/app/payment-ms.jar"]
